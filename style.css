@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@import "reset.css";
+
+body{
+    background-color: rgb(52, 85, 219);
+}
+header{
+    background-color: rgb(18, 25, 98);
+}
+ul {
+    text-align: center;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(64, 156, 210);
+}
+ul li:hover{
+    background-color: rgb(6, 6, 153);
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: blue;
+}
+.posts_principais{
+    background-color: rgb(27, 27, 138);
+    padding: 10px;
+    margin-top: 10px;
+}
+.posts{
+    background-color: rgb(13, 13, 189);
+    padding: 10px;
+    margin-top: 10px;
+}
+footer{
+    background-color: rgb(10, 10, 157);
+    padding: 300px;
+    margin-top: 3px;
+    text-align:center;
+}
