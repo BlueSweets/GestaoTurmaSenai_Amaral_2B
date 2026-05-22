@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@import "css/reset.css";
+@import "css/color.css";
+
+@font-face{
+    font-family: Rubita;
+    src: url(fonts/rubita_smile/Rubita\ Smile.ttf);
+}
+
+body{
+    color: var(--cor0);
+    font-family: Rubita;
+}
