@@ -8,6 +8,7 @@
 }
 
 body{
-    color: var(--cor0);
+    color: var(--platinum);
     font-family: Rubita;
+    background-color: var(--cormista);
 }

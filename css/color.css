@@ -1,4 +1,8 @@
-
-body{
-    background: linear-gradient(to right, #572d17, #251603, #021120);
+:root{
+    --cormista: #251603;
+    --midnight-blue: blue;
+    --platinum: rgb(255, 255, 255);
+    --slate-blue: blue;
+    --tuscam-sun: pink;
+    --vibrant-coral: red;
 }
