@@ -3,12 +3,12 @@
 @import "css/color.css";
 
 @font-face{
-    font-family: Rubita;
-    src: url(fonts/rubita_smile/Rubita\ Smile.ttf);
+    font-family: History Wonder;
+    src: url(fonts/history_wonder/HistoryWonder-Regular.ttf);
 }
 
 body{
     color: var(--platinum);
-    font-family: Rubita;
+    font-family: History Wonder;
     background-color: var(--cormista);
 }
