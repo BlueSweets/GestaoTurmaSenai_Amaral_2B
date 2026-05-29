@@ -34,7 +34,8 @@
     </div>
     <section class="SENAI-MK">
         <section id="turmas">
-            <h1 class="tit-principal">TURMAS DE <mark><abbr title="DESENVOLVIMENTO DE SISTEMAS">DS</abbr></mark> NO SENAI-MK</h1>
+            <h1 class="tit-principal">TURMAS DE <mark><abbr title="DESENVOLVIMENTO DE SISTEMAS">DS</abbr></mark> NO
+                SENAI-MK</h1>
             <section>
                 <header>
                     <h2>JOSÉ PINTO DO AMARAL - A</h2>
@@ -48,7 +49,7 @@
                 </div>
                 <footer>
                     <div>
-                        Quantidade de Alunos: <p id="qtdAlunosAmaralA"><mark>20</mark></p>
+                        Quantidade de Alunos: <p id="qtdAlunosAmaralA"><mark>3</mark></p>
                     </div>
                 </footer>
             </section>
@@ -64,7 +65,7 @@
                     </ul>
                 </div>
                 <footer>
-                    <div>Quantidade de Alunos: <p id="qtdAlunosAmaralB"><mark>20</mark></p>
+                    <div>Quantidade de Alunos: <p id="qtdAlunosAmaralB"><mark>3</mark></p>
                     </div>
                 </footer>
             </section>
@@ -80,7 +81,7 @@
                     </ul>
                 </div>
                 <footer>
-                    <div>Quantidade de Alunos: <p id="qtdAlunosLellisItoA"><mark>20</mark></p>
+                    <div>Quantidade de Alunos: <p id="qtdAlunosLellisItoA"><mark>3</mark></p>
                     </div>
                 </footer>
             </section>
@@ -96,7 +97,7 @@
                     </ul>
                 </div>
                 <footer>
-                    <div>Quantidade de Alunos: <p id="qtdAlunosLellisItoB"><mark>20</mark></p>
+                    <div>Quantidade de Alunos: <p id="qtdAlunosLellisItoB"><mark>3</mark></p>
                     </div>
                 </footer>
             </section>
@@ -108,8 +109,12 @@
             const quantidade = listaAlunos.querySelector("li").length;
             document.getElementById(qtd).textContent = quantidade;
         }
-        contarQuantidadeAlunosTurme('alunosLellis_A', qtdAlunosLellis_A)
+        contarQuantidadeAlunosTurme('alunosLellis_A', qtdAlunosLellis_A);
+        contarQuantidadeAlunosTurme('alunosLellis_B', qtdAlunosLellis_A);
 
+        contarQuantidadeAlunosTurme('alunosAmaral_A', qtdAlunosLellis_A);
+        contarQuantidadeAlunosTurme('alunosAmaral_B', qtdAlunosLellis_A);
     </script>
-</body>    
+</body>
+
 </html>
