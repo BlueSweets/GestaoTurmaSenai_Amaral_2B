@@ -1,0 +1,14 @@
+@charset "UTF-8";
+@import "css/reset2.css";
+@import "css/color2.css";
+
+@font-face{
+    font-family: Moonstar;
+    src: url(fonts/moonstar/Moonstar.ttf);
+}
+
+body{
+    color: var(--platinum);
+    font-family: Moonstar;
+    background-color: var(--cormista);
+}
